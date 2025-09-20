@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Futuristik</title>
+
+  <!-- CSS langsung di sini -->
+  <style>
+    /* Font futuristik */
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0a0a0f;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    }
+
+    header h1 {
+      font-family: "Orbitron", sans-serif;
+      font-size: 3rem;
+      color: #00ffe0;
+      text-shadow: 0 0 15px #00ffe0;
+    }
+
+    header p {
+      color: #b2bec3;
+      margin-top: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 15px 0;
+      border-bottom: 1px solid #222;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #00ffe0;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    section h2 {
+      font-family: "Orbitron", sans-serif;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #00ffe0;
+      text-shadow: 0 0 15px #00ffe0;
+    }
+
+    .about {
+      text-align: center;
+    }
+
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #00ffe0;
+      box-shadow: 0 0 25px #00ffe0;
+      margin-bottom: 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #111;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #222;
+      box-shadow: 0 0 15px rgba(0, 255, 224, 0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(255, 0, 255, 0.5);
+    }
+
+    .card h3 {
+      color: #ff00ff;
+      margin-bottom: 10px;
+      font-family: "Orbitron", sans-serif;
+    }
+
+    .contact-info {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .contact-info a {
+      color: #00ffe0;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contact-info a:hover {
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jonathan Christian</h1>
+    <p>Web Developer | Mahasiswa Informatika | Gamer</p>
+  </header>
+
+  <nav>
+    <a href="#about">Tentang</a>
+    <a href="#projects">Proyek</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <img src="https://via.placeholder.com/180" alt="Foto Profil">
+    <p>Saya Jonathan Christian, mahasiswa informatika yang menyukai coding, UI/UX, serta developer mobile. 
+       Selain itu, saya hobi bermain game yang mengasah strategi dan refleks.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek Saya</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portofolio Futuristik</h3>
+        <p>Website portofolio dengan desain neon futuristik menggunakan HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Aplikasi To-Do List</h3>
+        <p>Aplikasi manajemen tugas dengan local storage berbasis web.</p>
+      </div>
+      <div class="card">
+        <h3>Mini Game Web</h3>
+        <p>Game 2D sederhana menggunakan JavaScript dan HTML Canvas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <div class="contact-info">
+      <p>📱 WhatsApp: <a href="https://wa.me/6282132224685" target="_blank">082132224685</a></p>
+      <p>📧 Email: <a href="mailto:chjonathan@gmail.com">chjonathan@gmail.com</a></p>
+      <p>💻 GitHub: <a href="#">github.com/jojookun</a></p>
+      <p>🔗 LinkedIn: <a href="#">linkedin.com/in/jonathan</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Jonathan Christian | Dibuat dengan ✨ gaya futuristik ✨</p>
+  </footer>
+</body>
+</html>
